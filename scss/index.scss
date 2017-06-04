@@ -1,0 +1,36 @@
+@import 'universal';
+
+#main-header {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#main-title, #main-links {
+	display: block;
+}
+
+#main-title a {
+	color: $primary-color;
+}
+
+#main-title h1 {
+	font-size: 60px;
+}
+
+#main-links {
+	margin-top: 20px;
+}
+
+#main-links a {
+	color: $action-color;
+	font-size: 20px;
+}
+
+#main-links ul li {
+	display: inline-block;
+}
+
+#main-links span {
+	margin: 0 15px;
+}
