@@ -43,6 +43,7 @@ a {
   display: inline-block; }
 
 #main-links span {
+  font-size: 20px;
   margin: 0 15px; }
 
 #main-contact a {
