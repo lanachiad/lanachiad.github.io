@@ -4,6 +4,11 @@ $primary-color: #990D35; //wine
 $action-color: #F2AF29; //yellow
 $accent-color: #474747; //dark gray
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: #E0E0CE;
 }
