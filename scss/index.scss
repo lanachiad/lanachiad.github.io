@@ -1,0 +1,49 @@
+@import 'universal';
+
+#main-header {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#main-title, #main-links {
+	display: block;
+}
+
+#main-title a {
+	color: $primary-color;
+}
+
+#main-title h1 {
+	font-size: 60px;
+}
+
+#main-links a {
+	color: $action-color;
+	font-size: 22px;
+}
+
+#main-links a:hover {
+	border-bottom: 2px $primary-color solid;
+	border-top: 2px $primary-color solid;
+	color: $primary-color;
+}
+
+.nav-links li {
+	display: inline-block;
+}
+
+#main-links span {
+	font-size: 20px;
+	margin: 0 15px;
+}
+
+#main-contact a {
+	color: $primary-color;
+	font-size: 50px;
+	margin: 0 20px;
+}
+
+#main-contact a:hover {
+	color: $action-color;
+}
