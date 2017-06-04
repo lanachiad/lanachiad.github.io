@@ -23,6 +23,12 @@
 	font-size: 22px;
 }
 
+#main-links a:hover {
+	border-bottom: 2px $primary-color solid;
+	border-top: 2px $primary-color solid;
+	color: $primary-color;
+}
+
 .nav-links li {
 	display: inline-block;
 }
@@ -36,4 +42,8 @@
 	color: $primary-color;
 	font-size: 50px;
 	margin: 0 20px;
+}
+
+#main-contact a:hover {
+	color: $action-color;
 }

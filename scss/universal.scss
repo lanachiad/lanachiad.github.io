@@ -4,13 +4,48 @@ $primary-color: #990D35; //wine
 $action-color: #F2AF29; //yellow
 $accent-color: #474747; //dark gray
 
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	background-color: #E0E0CE;
+	background-color: #FFFAFA;
 }
 
 h1, h2, h3, h4 {
@@ -32,4 +67,13 @@ a {
 
 .top-margin {
 	margin-top: 20px;
+}
+
+.color-transition {
+	@include transition(color 0.1s 0.1s);
+}
+
+.border-transition {
+	@include transition(border-bottom 0.2s 0.2s);
+	@include transition(border-top 0.2s 0.2s);
 }

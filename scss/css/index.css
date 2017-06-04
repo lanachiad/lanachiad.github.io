@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background-color: #E0E0CE; }
+  background-color: #FFFAFA; }
 
 h1, h2, h3, h4 {
   font-family: "Yellowtail", cursive; }
@@ -20,6 +20,12 @@ a {
 
 .top-margin {
   margin-top: 20px; }
+
+.color-transition {
+  -moz-transition: color 0.2s 0.2s;
+  -o-transition: color 0.2s 0.2s;
+  -webkit-transition: color 0.2s 0.2s;
+  transition: color 0.2s 0.2s; }
 
 #main-header {
   align-items: center;
@@ -39,6 +45,11 @@ a {
   color: #F2AF29;
   font-size: 22px; }
 
+#main-links a:hover {
+  border-bottom: 2px #990D35 solid;
+  border-top: 2px #990D35 solid;
+  color: #990D35; }
+
 .nav-links li {
   display: inline-block; }
 
@@ -50,5 +61,8 @@ a {
   color: #990D35;
   font-size: 50px;
   margin: 0 20px; }
+
+#main-contact a:hover {
+  color: #F2AF29; }
 
 /*# sourceMappingURL=index.css.map */

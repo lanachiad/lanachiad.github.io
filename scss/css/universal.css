@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background-color: #E0E0CE; }
+  background-color: #FFFAFA; }
 
 h1, h2, h3, h4 {
   font-family: "Yellowtail", cursive; }
@@ -20,5 +20,21 @@ a {
 
 .top-margin {
   margin-top: 20px; }
+
+.color-transition {
+  -moz-transition: color 0.1s 0.1s;
+  -o-transition: color 0.1s 0.1s;
+  -webkit-transition: color 0.1s 0.1s;
+  transition: color 0.1s 0.1s; }
+
+.border-transition {
+  -moz-transition: border-bottom 0.2s 0.2s;
+  -o-transition: border-bottom 0.2s 0.2s;
+  -webkit-transition: border-bottom 0.2s 0.2s;
+  transition: border-bottom 0.2s 0.2s;
+  -moz-transition: border-top 0.2s 0.2s;
+  -o-transition: border-top 0.2s 0.2s;
+  -webkit-transition: border-top 0.2s 0.2s;
+  transition: border-top 0.2s 0.2s; }
 
 /*# sourceMappingURL=universal.css.map */
