@@ -69,11 +69,7 @@ a {
 	margin-top: 20px;
 }
 
-.color-transition {
-	@include transition(color 0.1s 0.1s);
-}
+.header-link-transition {
+	@include transition(border-bottom border-top color 0.2s 0.2s);
 
-.border-transition {
-	@include transition(border-bottom 0.2s 0.2s);
-	@include transition(border-top 0.2s 0.2s);
 }
