@@ -1,3 +1,12 @@
+body {
+  background-color: #E0E0CE; }
+
+h1, h2, h3, h4 {
+  font-family: "Yellowtail", cursive; }
+
+p, a, ol, ul, li, span {
+  font-family: "Montserrat", sans-serif; }
+
 a {
   text-decoration: none; }
 

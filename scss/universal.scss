@@ -1,6 +1,20 @@
-$primary-font: 'Yellowtail', cursive;
+$header-font: 'Yellowtail', cursive;
+$text-font: 'Montserrat', sans-serif;
+$primary-color: #990D35; //wine 
+$action-color: #F2AF29; //yellow
+$accent-color: #474747; //dark gray
 
-$secondary-font: 'Montserrat', sans-serif;
+body {
+	background-color: #E0E0CE;
+}
+
+h1, h2, h3, h4 {
+	font-family: $header-font;
+}
+
+p, a, ol, ul, li, span {
+	font-family: $text-font;
+}
 
 a {
 	text-decoration: none;
