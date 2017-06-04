@@ -18,19 +18,21 @@
 	font-size: 60px;
 }
 
-#main-links {
-	margin-top: 20px;
-}
-
 #main-links a {
 	color: $action-color;
 	font-size: 20px;
 }
 
-#main-links ul li {
+.nav-links li {
 	display: inline-block;
 }
 
 #main-links span {
 	margin: 0 15px;
+}
+
+#main-contact a {
+	color: $primary-color;
+	font-size: 50px;
+	margin: 0 20px;
 }

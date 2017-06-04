@@ -18,6 +18,9 @@ a {
   margin: 50px 100px;
   max-width: 1500px; }
 
+.top-margin {
+  margin-top: 20px; }
+
 #main-header {
   align-items: center;
   display: flex;
@@ -32,17 +35,19 @@ a {
 #main-title h1 {
   font-size: 60px; }
 
-#main-links {
-  margin-top: 20px; }
-
 #main-links a {
   color: #F2AF29;
   font-size: 20px; }
 
-#main-links ul li {
+.nav-links li {
   display: inline-block; }
 
 #main-links span {
   margin: 0 15px; }
+
+#main-contact a {
+  color: #990D35;
+  font-size: 50px;
+  margin: 0 20px; }
 
 /*# sourceMappingURL=index.css.map */
