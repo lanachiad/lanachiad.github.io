@@ -1,0 +1,22 @@
+{
+  "name": "lanachiad.github.io",
+  "version": "1.0.0",
+  "description": "Lana Chiad's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanachiad/lanachiad.github.io.git"
+  },
+  "author": "Lana Chiad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanachiad/lanachiad.github.io/issues"
+  },
+  "homepage": "https://github.com/lanachiad/lanachiad.github.io#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}
