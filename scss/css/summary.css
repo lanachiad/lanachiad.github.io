@@ -62,13 +62,19 @@ a {
   justify-content: center;
   margin-top: 40px; }
 
-#summary-resume button {
+#summary-resume a {
   color: #fff;
   background-color: #990D35;
   border: 2px #fff solid;
   border-radius: 4px;
   font-size: 20px;
   padding: 30px;
+  text-align: center;
   width: 25%; }
+
+#summary-resume a:hover {
+  color: #990D35;
+  background-color: #fff;
+  border: 2px #990D35 solid; }
 
 /*# sourceMappingURL=summary.css.map */
