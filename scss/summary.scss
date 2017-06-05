@@ -1,0 +1,38 @@
+@import 'universal';
+
+#summary-section {
+	background-color: $accent-color;
+	width: 100%;
+}
+
+#summary-wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 0;
+}
+
+#summary-pic {
+	width: 35%;
+}
+
+#summary-pic img {
+	border: 2px #000 solid;
+	width: 100%;
+}
+
+#summary-text {
+	width: 50%;
+}
+
+#summary-text h2 {
+	color: $action-color;
+	font-size: 40px;
+	margin-bottom: 20px
+}
+
+#summary-text p {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
