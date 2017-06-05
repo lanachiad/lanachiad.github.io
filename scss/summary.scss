@@ -2,6 +2,7 @@
 
 #summary-section {
 	background-color: $accent-color;
+	padding: 30px 0;
 	width: 100%;
 }
 
@@ -9,7 +10,6 @@
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
-	padding: 30px 0;
 }
 
 #summary-pic {
@@ -35,4 +35,20 @@
 	color: #fff;
 	font-size: 20px;
 	margin-bottom: 15px;
+}
+
+#summary-resume {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+#summary-resume button {
+	color: #fff;
+	background-color: $primary-color;
+	border: 2px #fff solid;
+	border-radius: 4px;
+	font-size: 20px;
+	padding: 30px;
+	width: 25%
 }

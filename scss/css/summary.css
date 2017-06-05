@@ -8,7 +8,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "Yellowtail", cursive; }
 
-p, a, ol, ul, li, span {
+p, a, ol, ul, li, span, button {
   font-family: "Montserrat", sans-serif; }
 
 a {
@@ -29,13 +29,13 @@ a {
 
 #summary-section {
   background-color: #474747;
+  padding: 30px 0;
   width: 100%; }
 
 #summary-wrapper {
   align-items: center;
   display: flex;
-  justify-content: space-around;
-  padding: 30px 0; }
+  justify-content: space-around; }
 
 #summary-pic {
   width: 35%; }
@@ -56,5 +56,19 @@ a {
   color: #fff;
   font-size: 20px;
   margin-bottom: 15px; }
+
+#summary-resume {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+
+#summary-resume button {
+  color: #fff;
+  background-color: #990D35;
+  border: 2px #fff solid;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 30px;
+  width: 25%; }
 
 /*# sourceMappingURL=summary.css.map */
