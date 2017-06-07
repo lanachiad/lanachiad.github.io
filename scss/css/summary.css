@@ -70,7 +70,7 @@ a {
   font-size: 20px;
   padding: 30px;
   text-align: center;
-  -webkit-transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
   width: 25%; }
 
 #summary-resume a:hover {
