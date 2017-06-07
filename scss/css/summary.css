@@ -70,11 +70,17 @@ a {
   font-size: 20px;
   padding: 30px;
   text-align: center;
+  transition: background-color 0.75s ease;
+  transition: border 0.75s ease;
+  transition: color 0.75s ease;
   width: 25%; }
 
 #summary-resume a:hover {
   color: #990D35;
-  background-color: #fff;
-  border: 2px #990D35 solid; }
+  background-color: #474747;
+  border: 2px #990D35 solid;
+  transition: background-color 0.75s ease;
+  transition: border 0.75s ease;
+  transition: color 0.75s ease; }
 
 /*# sourceMappingURL=summary.css.map */

@@ -8,7 +8,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "Yellowtail", cursive; }
 
-p, a, ol, ul, li, span {
+p, a, ol, ul, li, span, button {
   font-family: "Montserrat", sans-serif; }
 
 a {
@@ -21,23 +21,11 @@ a {
 .top-margin {
   margin-top: 20px; }
 
-.color-transition {
-  -moz-transition: color 0.1s 0.1s;
-  -o-transition: color 0.1s 0.1s;
-  -webkit-transition: color 0.1s 0.1s;
-  transition: color 0.1s 0.1s; }
-
-.border-transition {
-  -moz-transition: border-bottom border-top 0.1s 0.1s;
-  -o-transition: border-bottom border-top 0.1s 0.1s;
-  -webkit-transition: border-bottom border-top 0.1s 0.1s;
-  transition: border-bottom border-top 0.1s 0.1s; }
-
 .header-link-transition {
-  -moz-transition: border-bottom border-top color 0.1s 0.1s;
-  -o-transition: border-bottom border-top color 0.1s 0.1s;
-  -webkit-transition: border-bottom border-top color 0.1s 0.1s;
-  transition: border-bottom border-top color 0.1s 0.1s; }
+  -moz-transition: border-bottom border-top color 0.2s 0.2s;
+  -o-transition: border-bottom border-top color 0.2s 0.2s;
+  -webkit-transition: border-bottom border-top color 0.2s 0.2s;
+  transition: border-bottom border-top color 0.2s 0.2s; }
 
 #main-header {
   align-items: center;
