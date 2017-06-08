@@ -1,20 +1,8 @@
 @import 'universal';
 
-#summary-section {
-	background-color: $accent-color;
-	padding: 30px 0;
-	width: 100%;
-}
-
 #summary-title {
 	display: block;
 	text-align:center;
-}
-
-#summary-title h2 {
-	color: $action-color;
-	font-size: 40px;
-	margin-bottom: 30px
 }
 
 #summary-wrapper {
