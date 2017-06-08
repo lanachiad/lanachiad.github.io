@@ -21,6 +21,10 @@
 						<li><a class="header-link-transition" href="#">About</a></li>
 						<span>•</span>
 						<li><a class="header-link-transition" href="https://lanachiad.github.io/development">Development</a></li>
+<<<<<<< HEAD
+						<li><a class="header-link-transition" href="/development">Development</a></li>
+=======
+>>>>>>> 5c2599cc636824ffa60834b19061a0397270bad4
 						<span>•</span>
 						<li><a class="header-link-transition" href="#">Design</a></li>
 						<span>•</span>
