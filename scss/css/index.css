@@ -21,11 +21,15 @@ a {
 .top-margin {
   margin-top: 20px; }
 
-.header-link-transition {
-  -moz-transition: border-bottom border-top color 0.2s 0.2s;
-  -o-transition: border-bottom border-top color 0.2s 0.2s;
-  -webkit-transition: border-bottom border-top color 0.2s 0.2s;
-  transition: border-bottom border-top color 0.2s 0.2s; }
+.section {
+  background-color: #474747;
+  padding: 30px 0;
+  width: 100%; }
+
+.title h2 {
+  color: #F2AF29;
+  font-size: 40px;
+  margin-bottom: 30px; }
 
 #main-header {
   align-items: center;
