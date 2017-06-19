@@ -21,40 +21,27 @@ a {
 .top-margin {
   margin-top: 20px; }
 
-.header-link-transition {
-  -moz-transition: border-bottom border-top color 0.2s 0.2s;
-  -o-transition: border-bottom border-top color 0.2s 0.2s;
-  -webkit-transition: border-bottom border-top color 0.2s 0.2s;
-  transition: border-bottom border-top color 0.2s 0.2s; }
-
-#summary-section {
-  background-color: #474747;
+.section {
+  background-color: #AF9164;
   padding: 30px 0;
   width: 100%; }
+
+.title h2 {
+  color: #990D35;
+  font-size: 40px;
+  margin-bottom: 30px; }
 
 #summary-title {
   display: block;
   text-align: center; }
-
-#summary-title h2 {
-  color: #F2AF29;
-  font-size: 40px;
-  margin-bottom: 30px; }
 
 #summary-wrapper {
   align-items: center;
   display: flex;
   justify-content: space-around; }
 
-#summary-pic {
-  width: 35%; }
-
-#summary-pic img {
-  border: 2px #000 solid;
-  width: 100%; }
-
 #summary-text {
-  width: 50%; }
+  margin-left: 50px; }
 
 #summary-text p {
   color: #fff;
@@ -68,7 +55,7 @@ a {
 
 #summary-resume a {
   color: #fff;
-  background-color: #990D35;
+  background-color: #2B2118;
   border: 2px #fff solid;
   border-radius: 4px;
   font-size: 20px;
@@ -78,9 +65,9 @@ a {
   width: 25%; }
 
 #summary-resume a:hover {
-  color: #990D35;
-  background-color: #474747;
-  border: 2px #990D35 solid; }
+  color: #2B2118;
+  background-color: #AF9164;
+  border: 2px #2B2118 solid; }
 
 @media screen and (max-width: 950px) {
   #summary-wrapper {
