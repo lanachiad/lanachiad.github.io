@@ -10,4 +10,5 @@ Updated: Monday, June 19, 2017
 * Sass
 
 # Linked Repo Pages
+* [About](https://github.com/lanachiad/about)
 * [Development](https://github.com/lanachiad/development)
