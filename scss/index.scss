@@ -11,7 +11,8 @@
 }
 
 #main-title a {
-	color: $primary-color;
+	color: $action-color;
+	text-shadow: 2px 1px $primary-color;
 }
 
 #main-title h1 {

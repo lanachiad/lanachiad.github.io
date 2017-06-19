@@ -1,8 +1,8 @@
 $header-font: 'Yellowtail', cursive;
 $text-font: 'Montserrat', sans-serif;
-$primary-color: #990D35; //wine 
-$action-color: #F2AF29; //yellow
-$accent-color: #474747; //dark gray
+$primary-color: #2B2118; //dark brown 
+$action-color: #990D35; //wine
+$accent-color: #AF9164; //beige
 
 @mixin transition($transition...) {
     -moz-transition:    $transition;
