@@ -1,43 +1,10 @@
-$header-font: 'Yellowtail', cursive;
-$text-font: 'Montserrat', sans-serif;
-$primary-color: #2B2118; //dark brown 
-$action-color: #990D35; //wine
-$accent-color: #AF9164; //beige
-
-@mixin transition($transition...) {
-    -moz-transition:    $transition;
-    -o-transition:      $transition;
-    -webkit-transition: $transition;
-    transition:         $transition;
-}
-
-@mixin transition-property($property...) {
-    -moz-transition-property:    $property;
-    -o-transition-property:      $property;
-    -webkit-transition-property: $property;
-    transition-property:         $property;
-}
-
-@mixin transition-duration($duration...) {
-    -moz-transition-property:    $duration;
-    -o-transition-property:      $duration;
-    -webkit-transition-property: $duration;
-    transition-property:         $duration;
-}
-
-@mixin transition-timing-function($timing...) {
-    -moz-transition-timing-function:    $timing;
-    -o-transition-timing-function:      $timing;
-    -webkit-transition-timing-function: $timing;
-    transition-timing-function:         $timing;
-}
-
-@mixin transition-delay($delay...) {
-    -moz-transition-delay:    $delay;
-    -o-transition-delay:      $delay;
-    -webkit-transition-delay: $delay;
-    transition-delay:         $delay;
-}
+$header-font: "Courgette", cursive;
+$text-font: "Montserrat", sans-serif;
+$primary-color: #6B2737; //wine
+$action-color: #F45B69; //rose
+$accent-color: #F45B69; 
+$first-block-color: #456990; //queen blue
+$second-block-color: #114B5F; //eagle green
 
 * {
 	margin: 0;
@@ -45,7 +12,7 @@ $accent-color: #AF9164; //beige
 }
 
 body {
-	background-color: #FFFAFA;
+	background-color: #E4FDE1;
 }
 
 h1, h2, h3, h4 {
