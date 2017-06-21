@@ -3,10 +3,10 @@
   padding: 0; }
 
 body {
-  background-color: #FFFAFA; }
+  background-color: #E4FDE1; }
 
 h1, h2, h3, h4 {
-  font-family: "Yellowtail", cursive; }
+  font-family: "Courgette", cursive; }
 
 p, a, ol, ul, li, span, button {
   font-family: "Montserrat", sans-serif; }
@@ -22,12 +22,12 @@ a {
   margin-top: 20px; }
 
 .section {
-  background-color: #AF9164;
+  background-color: #F45B69;
   padding: 30px 0;
   width: 100%; }
 
 .title h2 {
-  color: #990D35;
+  color: #F45B69;
   font-size: 40px;
   margin-bottom: 30px; }
 
@@ -55,7 +55,7 @@ a {
 
 #summary-resume a {
   color: #fff;
-  background-color: #2B2118;
+  background-color: #6B2737;
   border: 2px #fff solid;
   border-radius: 4px;
   font-size: 20px;
@@ -65,9 +65,9 @@ a {
   width: 25%; }
 
 #summary-resume a:hover {
-  color: #2B2118;
-  background-color: #AF9164;
-  border: 2px #2B2118 solid; }
+  color: #6B2737;
+  background-color: #F45B69;
+  border: 2px #6B2737 solid; }
 
 @media screen and (max-width: 950px) {
   #summary-wrapper {
