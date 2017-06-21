@@ -8,6 +8,8 @@ Updated: Wednesday, June 21, 2017
 * HTML
 * CSS
 * Sass
+* JavaScript
+* jQuery
 
 # Linked Repo Pages
 * [About](https://github.com/lanachiad/about)
