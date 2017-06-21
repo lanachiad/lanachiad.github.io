@@ -12,3 +12,4 @@ Updated: Monday, June 19, 2017
 # Linked Repo Pages
 * [About](https://github.com/lanachiad/about)
 * [Development](https://github.com/lanachiad/development)
+* [Writing](https://github.com/lanachiad/writing)
