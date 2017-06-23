@@ -82,7 +82,13 @@ a {
     display: block;
     text-align: center; } }
 @media screen and (max-width: 464px) {
+  #main-title h1 {
+    font-size: 80px; }
+
+  #internal li a {
+    font-size: 30px; }
+
   #external li a {
-    font-size: 35px; } }
+    font-size: 45px; } }
 
 /*# sourceMappingURL=index.css.map */
