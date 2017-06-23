@@ -2,7 +2,7 @@
 
 Started: Sunday, June 4, 2017
 
-Updated: Wednesday, June 21, 2017
+Updated: Friday, June 23, 2017
 
 # Languages/Frameworks/Extensions
 * HTML
