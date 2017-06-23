@@ -74,10 +74,8 @@ a {
     align-items: center;
     display: block; }
 
-  #summary-pic {
-    display: none; }
-
   #summary-text {
+    margin-left: 0;
     width: 100%; } }
 
 /*# sourceMappingURL=summary.css.map */
