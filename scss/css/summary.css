@@ -31,6 +31,12 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
+@media screen and (max-width: 654px) {
+  .title h2 {
+    font-size: 35px; } }
+@media screen and (max-width: 464px) {
+  .container {
+    margin: 25px 50px; } }
 #summary-title {
   display: block;
   text-align: center; }
@@ -74,10 +80,11 @@ a {
     align-items: center;
     display: block; }
 
-  #summary-pic {
-    display: none; }
-
   #summary-text {
+    margin-left: 0;
+    width: 100%; } }
+@media screen and (max-width: 464px) {
+  #summary-resume a {
     width: 100%; } }
 
 /*# sourceMappingURL=summary.css.map */

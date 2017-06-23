@@ -17,45 +17,56 @@
 
 #main-title h1 {
 	font-size: 60px;
+	text-align: center;
 }
 
-#main-links a {
-	color: $action-color;
-	font-size: 22px;
-}
+#main-links {
+	a {
+		color: $action-color;
+		font-size: 22px;
 
-#main-links a:hover {
-	border-bottom: 2px $primary-color solid;
-	border-top: 2px $primary-color solid;
-	color: $primary-color;
-}
+		&:hover {
+			border-bottom: 2px $primary-color solid;
+			border-top: 2px $primary-color solid;
+			color: $primary-color;
+		}
+	}
+
+	span {
+		font-size: 20px;
+		margin: 0 15px;
+	}
+} 
 
 .nav-links li {
 	display: inline-block;
 }
 
-#main-links span {
-	font-size: 20px;
-	margin: 0 15px;
-}
+#main-contact {
+	a {
+		color: $primary-color;
+		font-size: 50px;
+		margin: 0 20px;
 
-#main-contact a {
-	color: $primary-color;
-	font-size: 50px;
-	margin: 0 20px;
-}
-
-#main-contact a:hover {
-	color: $action-color;
-}
+		&:hover {
+			color: $action-color;
+		}
+	}
+} 
 
 @media screen and (max-width: 700px) {
 	#main-links span {
 		display: none;
 	}
 
-	.nav-links li {
+	#internal li {
 		display: block;
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	#external li a {
+		font-size: 35px;
 	}
 }

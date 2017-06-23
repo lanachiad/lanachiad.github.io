@@ -31,6 +31,12 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
+@media screen and (max-width: 654px) {
+  .title h2 {
+    font-size: 35px; } }
+@media screen and (max-width: 464px) {
+  .container {
+    margin: 25px 50px; } }
 #main-header {
   align-items: center;
   display: flex;
@@ -44,38 +50,39 @@ a {
   text-shadow: 2px 1px #6B2737; }
 
 #main-title h1 {
-  font-size: 60px; }
+  font-size: 60px;
+  text-align: center; }
 
 #main-links a {
   color: #F45B69;
   font-size: 22px; }
-
-#main-links a:hover {
-  border-bottom: 2px #6B2737 solid;
-  border-top: 2px #6B2737 solid;
-  color: #6B2737; }
-
-.nav-links li {
-  display: inline-block; }
-
+  #main-links a:hover {
+    border-bottom: 2px #6B2737 solid;
+    border-top: 2px #6B2737 solid;
+    color: #6B2737; }
 #main-links span {
   font-size: 20px;
   margin: 0 15px; }
+
+.nav-links li {
+  display: inline-block; }
 
 #main-contact a {
   color: #6B2737;
   font-size: 50px;
   margin: 0 20px; }
-
-#main-contact a:hover {
-  color: #F45B69; }
+  #main-contact a:hover {
+    color: #F45B69; }
 
 @media screen and (max-width: 700px) {
   #main-links span {
     display: none; }
 
-  .nav-links li {
+  #internal li {
     display: block;
     text-align: center; } }
+@media screen and (max-width: 464px) {
+  #external li a {
+    font-size: 35px; } }
 
 /*# sourceMappingURL=index.css.map */
