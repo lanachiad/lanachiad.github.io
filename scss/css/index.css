@@ -44,7 +44,8 @@ a {
   text-shadow: 2px 1px #6B2737; }
 
 #main-title h1 {
-  font-size: 60px; }
+  font-size: 60px;
+  text-align: center; }
 
 #main-links a {
   color: #F45B69;
