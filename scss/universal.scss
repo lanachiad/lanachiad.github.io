@@ -1,51 +1,60 @@
 $header-font: "Courgette", cursive;
 $text-font: "Montserrat", sans-serif;
-$primary-color: #6B2737; //wine
-$action-color: #F45B69; //rose
-$accent-color: #F45B69; 
+$primary-color: #6b2737; //wine
+$action-color: #f45b69; //rose
+$accent-color: #f45b69;
 $first-block-color: #456990; //queen blue
-$second-block-color: #114B5F; //eagle green
+$second-block-color: #114b5f; //eagle green
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #E4FDE1;
+  background-color: #e4fde1;
 }
 
-h1, h2, h3, h4 {
-	font-family: $header-font;
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font;
 }
 
-p, a, ol, ul, li, span, button {
-	font-family: $text-font;
+p,
+a,
+ol,
+ul,
+li,
+span,
+button {
+  font-family: $text-font;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-	margin: 50px 100px;
-	max-width: 1500px;
+  margin: 50px 100px;
+  max-width: 1500px;
 }
 
 .top-margin {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .section {
-    background-color: $accent-color;
-    padding: 30px 0;
-    width: 100%;
+  background-color: $accent-color;
+  padding: 30px 0;
+  width: 100%;
 }
 
 .title h2 {
-    color: $primary-color;
-    font-size: 40px;
-    margin-bottom: 30px
+  color: $primary-color;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 654px) {

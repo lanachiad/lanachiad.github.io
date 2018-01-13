@@ -3,12 +3,21 @@
   padding: 0; }
 
 body {
-  background-color: #E4FDE1; }
+  background-color: #e4fde1; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Courgette", cursive; }
 
-p, a, ol, ul, li, span, button {
+p,
+a,
+ol,
+ul,
+li,
+span,
+button {
   font-family: "Montserrat", sans-serif; }
 
 a {
@@ -22,12 +31,12 @@ a {
   margin-top: 20px; }
 
 .section {
-  background-color: #F45B69;
+  background-color: #f45b69;
   padding: 30px 0;
   width: 100%; }
 
 .title h2 {
-  color: #6B2737;
+  color: #a593e0;
   font-size: 40px;
   margin-bottom: 30px; }
 

@@ -3,12 +3,21 @@
   padding: 0; }
 
 body {
-  background-color: #E4FDE1; }
+  background-color: #e4fde1; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Courgette", cursive; }
 
-p, a, ol, ul, li, span, button {
+p,
+a,
+ol,
+ul,
+li,
+span,
+button {
   font-family: "Montserrat", sans-serif; }
 
 a {
@@ -22,12 +31,12 @@ a {
   margin-top: 20px; }
 
 .section {
-  background-color: #F45B69;
+  background-color: #f45b69;
   padding: 30px 0;
   width: 100%; }
 
 .title h2 {
-  color: #6B2737;
+  color: #a593e0;
   font-size: 40px;
   margin-bottom: 30px; }
 
@@ -46,20 +55,20 @@ a {
   display: block; }
 
 #main-title a {
-  color: #F45B69;
-  text-shadow: 2px 1px #6B2737; }
+  color: #f45b69;
+  text-shadow: 2px 1px #a593e0; }
 
 #main-title h1 {
   font-size: 60px;
   text-align: center; }
 
 #main-links a {
-  color: #F45B69;
+  color: #f45b69;
   font-size: 22px; }
   #main-links a:hover {
-    border-bottom: 2px #6B2737 solid;
-    border-top: 2px #6B2737 solid;
-    color: #6B2737; }
+    border-bottom: 2px #a593e0 solid;
+    border-top: 2px #a593e0 solid;
+    color: #a593e0; }
 #main-links span {
   font-size: 20px;
   margin: 0 15px; }
@@ -68,11 +77,11 @@ a {
   display: inline-block; }
 
 #main-contact a {
-  color: #6B2737;
+  color: #a593e0;
   font-size: 50px;
   margin: 0 20px; }
   #main-contact a:hover {
-    color: #F45B69; }
+    color: #f45b69; }
 
 @media screen and (max-width: 700px) {
   #main-links span {
