@@ -345,6 +345,12 @@ div.project-icon-wrapper:first-of-type {
   padding: 10px;
 }
 
+.project-details .link-wrapper .project-link:hover {
+  background-color: transparent;
+  border: 2px #000 solid;
+  color: #000;
+}
+
 /**************************
       Writing Modal
 **************************/
