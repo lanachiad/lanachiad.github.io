@@ -136,7 +136,7 @@ p a {
   display: none;
   font-weight: bold;
   justify-content: space-around;
-  padding: 15px 0;
+  padding-top: 15px;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -315,6 +315,7 @@ div.project-icon-wrapper:first-of-type {
 
 .project-details {
   background-color: rgba(199, 120, 0, 0.75);
+  display: none;
   height: 90%;
   padding: 20px;
 }
