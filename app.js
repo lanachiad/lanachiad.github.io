@@ -67,6 +67,29 @@ $(document).ready(function() {
       Sticky Nav on Load
   **************************/
   $('#sticky-header').hide();
+
+  /**************************
+      Display Dev Details
+  **************************/
+  $('#birdspotting').hover(function() {
+    $('#birdspotting-desc').toggleClass('show');
+  });
+
+  $('#todolist').hover(function() {
+    $('#todolist-desc').toggleClass('show');
+  });
+
+  $('#burnbook').hover(function() {
+    $('#burnbook-desc').toggleClass('show');
+  });
+
+  $('#yellowpiece').hover(function() {
+    $('#yellowpiece-desc').toggleClass('show');
+  });
+
+  $('#compositionc').hover(function() {
+    $('#compositionc-desc').toggleClass('show');
+  });
 });
 
 /**************************
