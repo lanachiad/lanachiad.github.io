@@ -268,59 +268,63 @@ p a {
         Development
 **************************/
 
-div.project:first {
+.project-icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+div.project-icon-wrapper:first-of-type {
   margin: 0;
 }
 
-.project {
-  margin: 30px 0;
+.dev-project {
+  border: 2px var(--sdarker) solid;
+  border-radius: 5px;
+  height: 400px;
+  width: 40%;
+}
+
+#birdspotting {
+  background: url('images/birdspotting.png');
+  background-size: contain;
+}
+
+#todolist {
+  background: url('images/todolist.png');
+  background-position-x: -80px;
+  background-size: cover;
+}
+
+#burnbook {
+  background: url('images/burnbook.png');
+  background-position-x: -80px;
+  background-size: cover;
+}
+
+#yellowpiece {
+  background: url('images/yellowpiece.png');
+  background-position-x: -80px;
+  background-size: cover;
+}
+
+#compositionc {
+  background: url('images/compositionc.png');
+  background-size: cover;
 }
 
 .project-details {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-.flip {
-  order: 2;
-}
-
-.screenshot-wrapper,
-.description-wrapper {
-  display: inline-block;
-  width: 45%;
-}
-
-.screenshot {
-  border: 2px var(--sdarker) solid;
-  border-radius: 25%;
-  height: 350px;
-  width: 100%;
-}
-
-.link-wrapper {
-  display: flex;
-  justify-content: space-around;
-  margin: 50px 0;
-}
-
-.project-link {
-  background-color: var(--pdarker);
-  border: 2px #fff solid;
-  border-radius: 5px;
-  color: #fff;
-  display: block;
-  font-size: 18pt;
-  margin: 0 auto;
+  background-color: rgba(199, 120, 0, 0.75);
+  height: 90%;
   padding: 20px;
-  text-align: center;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 
-hr {
-  border: 1px var(--sdarker) solid;
+.project-details h3 {
+  color: #000;
+}
+
+.project-details p {
+  color: #fff;
 }
 
 /**************************
@@ -372,6 +376,30 @@ hr {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.project {
+  margin: 30px 0;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.project-link {
+  background-color: var(--pdarker);
+  border: 2px #fff solid;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 18pt;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 #youtube-link {
@@ -429,10 +457,6 @@ a #jump-to-top p {
 }
 
 @media only screen and (max-width: 900px) {
-  .project-details {
-    display: block;
-  }
-
   .screenshot-wrapper,
   .description-wrapper {
     width: 100%;
