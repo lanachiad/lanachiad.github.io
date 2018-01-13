@@ -70,8 +70,8 @@ $(document).ready(function() {
 });
 
 /**************************
-      Display Sticky Nav
-  **************************/
+     Display Sticky Nav
+**************************/
 $(document).scroll(function() {
   var location = $(this).scrollTop();
   if (location > $('#about').offset().top) {
