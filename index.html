@@ -12,7 +12,7 @@
 
 <body>
     <section id="sticky-header">
-      <h1 id="sticky-name" class="no-underline"><a href="#top">Lana Chiad</a></h1>
+        <h1 id="sticky-name" class="no-underline"><a href="#top">Lana Chiad</a></h1>
         <ul id="sticky-nav">
             <li><a class="no-underline" href="#about">About</a></li>
             <li><a class="no-underline" href="#development">Development</a></li>
@@ -60,90 +60,70 @@
     </section>
     <h2 class="title" name="development">Development</h2>
     <section class="container" id="development">
-        <div class="wrapper project">
-            <h3 class="project-name">BirdSpotting</h3>
-            <div class="project-details">
-                <div class="screenshot-wrapper">
-                    <img class="screenshot" src="images/birdspotting.png" alt="Screenshot of BirdSpotting" />
+        <div class="project-icon-wrapper">
+            <!-- Birdspotting -->
+            <div class="dev-project" id="birdspotting">
+                <div class="project-details" id="birdspotting-desc">
+                    <h3>BirdSpotting</h3>
+                    <p>BirdSpotting is a web app that allows users to learn about and identify common North American birds.</p>
+                    <p>This site was built with Sinatra, deployed onto Heroku, uses PostgreSQL, and incorporates the Google API to identify the regions. AJAX was used for the quick facts of each bird on the home page.</p>
                 </div>
-                <div class="description-wrapper">
-                    <p>BirdSpotting is a site that allows users to learn about and identify common North American birds.</p>
-                    <p>This site was built with Sinatra, deployed onto Heroku, uses PostgreSQL, and incorporates the Google API to identify the regions.</p>
-                    <p>I was also able to use AJAX to quickly pull information about each bird on the main page.</p>
-                </div>
+                <!--  <div class="link-wrapper">
+                    <a class="project-link" href="http://birdspotting.herokuapp.com/" target="_blank">View Site</a>
+                    <a class="project-link" href="https://github.com/lanachiad/birdspotting" target="_blank">View Repo</a>
+                </div> -->
             </div>
-            <div class="link-wrapper">
-                <a class="project-link" href="http://birdspotting.herokuapp.com/" target="_blank">View Site</a>
-                <a class="project-link" href="https://github.com/lanachiad/birdspotting" target="_blank">View Repo</a>
-            </div>
-        </div>
-        <hr />
-        <div class="wrapper project">
-            <h3 class="project-name">To Do List</h3>
-            <div class="project-details">
-                <div class="screenshot-wrapper flip">
-                    <img class="screenshot" src="images/todolist.png" alt="Screenshot of To Do List" />
-                </div>
-                <div class="description-wrapper">
+            <!-- To Do List -->
+            <div class="dev-project" id="todolist">
+                <div class="project-details" id="todolist-desc">
+                    <h3>To Do List</h3>
                     <p>To Do List is just that: a to-do list. Simple and to the point.</p>
                     <p>Built in ReactJS, you can create new tasks, mark them as complete, and delete them. It's still a work in progress as I continue to add more features to it. The current task is to allow users to edit tasks.</p>
                 </div>
-            </div>
-            <div class="link-wrapper">
-                <a class="project-link" href="https://github.com/lanachiad/todo-list" target="_blank">View Repo</a>
-            </div>
-        </div>
-        <hr />
-        <div class="wrapper project">
-            <h3 class="project-name">Burn Book</h3>
-            <div class="project-details">
-                <div class="screenshot-wrapper">
-                    <img class="screenshot" src="images/burnbook.png" alt="Screenshot of Burn Book" />
-                </div>
-                <div class="description-wrapper">
-                    <p>Burn Book is an anonymous Burn Book, inspired by one of my favorite movies, <em>Mean Girls</em>.</p>
-                    <p>This site was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
-                    <p>As simple as this site is, my favorite part about this app is that all the submissions were done by random people -- not one of those is mine. It keeps true to the Burn Book essence.</p>
-                </div>
-            </div>
-            <div class="link-wrapper">
-                <a class="project-link" href="https://lc-burn-book.herokuapp.com/" target="_blank">View Site</a>
-                <a class="project-link" href="https://github.com/lanachiad/burn-book" target="_blank">View Repo</a>
+                <!-- <div class="link-wrapper">
+                    <a class="project-link" href="https://github.com/lanachiad/todo-list" target="_blank">View Repo</a>
+                </div> -->
             </div>
         </div>
-        <hr />
-        <div class="wrapper project">
-            <h3 class="project-name">Yellow Piece</h3>
-            <div class="project-details">
-                <div class="screenshot-wrapper flip">
-                    <img class="screenshot" src="images/yellowpiece.png" alt="Screenshot of Yellow Piece" />
+        <div class="project-icon-wrapper">
+            <!-- Burn Book -->
+            <div class="dev-project" id="burnbook">
+                <div class="project-details" id="burnbook-desc">
+                    <h3>Burn Book</h3>
+                    <p>Burn Book was inspired by one of my favorite movies, <em>Mean Girls</em>.</p>
+                    <p>This web app was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
+                    <p>As simple as this site is, my favorite part about this app is that all the submissions were done by random people -- not one of those is mine. It keeps true to the spirit of the Burn Book.</p>
                 </div>
-                <div class="description-wrapper">
+                <!-- <div class="link-wrapper">
+                    <a class="project-link" href="https://lc-burn-book.herokuapp.com/" target="_blank">View Site</a>
+                    <a class="project-link" href="https://github.com/lanachiad/burn-book" target="_blank">View Repo</a>
+                </div> -->
+            </div>
+            <!-- Yellow Piece -->
+            <div class="dev-project" id="yellowpiece">
+                <div class="project-details" id="yellowpiece-desc">
+                    <h3>Yellow Piece</h3>
                     <p>A recreation of <em>Yellow Piece</em> by Ellsworth Kelly. It's a part of a series I've been doing for fun where I recreate famous minimalist paintings in CSS.</p>
                     <p>Built with HTML and CSS. This was a fun exercise in shading with CSS.</p>
                 </div>
-            </div>
-            <div class="link-wrapper">
-                <a class="project-link" href="https://github.com/lanachiad/yellow-piece" target="_blank">View Repo</a>
+                <!-- <div class="link-wrapper">
+                    <a class="project-link" href="https://github.com/lanachiad/yellow-piece" target="_blank">View Repo</a>
+                </div> -->
             </div>
         </div>
-        <hr />
-        <div class="wrapper project">
-            <h3 class="project-name">Composition C (No. III)</h3>
-            <div class="project-details">
-                <div class="screenshot-wrapper">
-                    <img class="screenshot" src="images/compositionc.png" alt="Screenshot of Composition C No. III" />
-                </div>
-                <div class="description-wrapper">
+        <div class="project-icon-wrapper">
+            <!-- Composition C -->
+            <div class="dev-project" id="compositionc">
+                <div class="project-details" id="compositionc-desc">
+                    <h3>Composition C (No. III)</h3>
                     <p>A recreation of <em>Composition C (No. III)</em> by Piet Mondrian. It's a part of a series I've been doing for fun where I recreate famous minimalist paintings in CSS.</p>
                     <p>Built with HTML and CSS. This was a fun exercise in styling with block elements.</p>
                 </div>
-            </div>
-            <div class="link-wrapper">
-                <a class="project-link" href="https://github.com/lanachiad/composition-c-no-III" target="_blank">View Repo</a>
+                <!-- <div class="link-wrapper">
+                    <a class="project-link" href="https://github.com/lanachiad/composition-c-no-III" target="_blank">View Repo</a>
+                </div> -->
             </div>
         </div>
-        <hr />
         <a class="external-link margin-top" href="https://github.com/lanachiad" target="_blank">Visit My GitHub</a>
     </section>
     <h2 class="title" name="writing">Writing</h2>
