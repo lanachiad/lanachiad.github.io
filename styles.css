@@ -132,7 +132,9 @@ p a {
 
 #sticky-header {
   background-color: var(--plighter);
+  background: linear-gradient(to top, rgba(157, 213, 253, 0.65), rgba(157, 213, 253, 1));
   display: none;
+  font-weight: bold;
   justify-content: space-around;
   padding: 15px 0;
   position: fixed;
