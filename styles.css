@@ -138,6 +138,7 @@ p a {
   justify-content: space-around;
   padding-top: 15px;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1000;
 }
