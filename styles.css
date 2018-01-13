@@ -286,31 +286,37 @@ div.project-icon-wrapper:first-of-type {
 }
 
 #birdspotting {
-  background: url('images/birdspotting.png');
+  background-image: url('images/birdspotting.png');
   background-size: contain;
 }
 
 #todolist {
-  background: url('images/todolist.png');
-  background-position-x: -80px;
-  background-size: cover;
+  background-image: url('images/todolist.png');
 }
 
 #burnbook {
-  background: url('images/burnbook.png');
-  background-position-x: -80px;
-  background-size: cover;
+  background-image: url('images/burnbook.png');
 }
 
 #yellowpiece {
-  background: url('images/yellowpiece.png');
-  background-position-x: -80px;
-  background-size: cover;
+  background-image: url('images/yellowpiece.png');
 }
 
 #compositionc {
-  background: url('images/compositionc.png');
+  background-image: url('images/compositionc.png');
+}
+
+#todolist,
+#burnbook,
+#yellowpiece,
+#compositionc {
   background-size: cover;
+}
+
+#todolist,
+#burnbook,
+#yellowpiece {
+  background-position-x: -90px;
 }
 
 .project-details {
