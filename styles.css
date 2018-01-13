@@ -226,11 +226,20 @@ p a {
 .external-link:hover,
 .project-link:hover {
   background-color: var(--background);
-  border: 2px var(--primary) solid;
-  color: var(--primary);
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.button:hover,
+.external-link:hover {
+  border: 2px var(--primary) solid;
+  color: var(--primary);
+}
+
+.project-link:hover {
+  border: 2px var(--pdarker) solid;
+  color: var(--pdarker);
 }
 
 .button:focus {
@@ -297,7 +306,7 @@ div.project:first {
 }
 
 .project-link {
-  background-color: var(--primary);
+  background-color: var(--pdarker);
   border: 2px #fff solid;
   border-radius: 5px;
   color: #fff;
