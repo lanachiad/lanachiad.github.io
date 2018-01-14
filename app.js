@@ -1,8 +1,12 @@
 $(document).ready(function() {
-  // Name bounce
+  /**************************
+          Name Bounce
+  **************************/
   $('#name').addClass('animated bounceInDown');
 
-  // Writing modals
+  /**************************
+        Writing Modals
+  **************************/
   $('#WBBtn').click(function(event) {
     $('#WBModal').css('display', 'block');
   });
@@ -28,7 +32,9 @@ $(document).ready(function() {
     }
   });
 
-  // Smooth scrolling
+  /**************************
+        Smooth Scrolling
+  **************************/
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (
@@ -50,16 +56,45 @@ $(document).ready(function() {
     });
   });
 
-  // Animate back to top button
+  /**************************
+        Bounce Up Arrow
+  **************************/
   $('#jump-to-top').hover(function() {
     $('.fa-arrow-up').toggleClass('move-up');
   });
 
-  // Sticky nav hidden on page load
+  /**************************
+      Sticky Nav on Load
+  **************************/
   $('#sticky-header').hide();
+
+  /**************************
+      Display Dev Details
+  **************************/
+  $('#birdspotting').hover(function() {
+    $('#birdspotting-desc').toggleClass('show');
+  });
+
+  $('#todolist').hover(function() {
+    $('#todolist-desc').toggleClass('show');
+  });
+
+  $('#burnbook').hover(function() {
+    $('#burnbook-desc').toggleClass('show');
+  });
+
+  $('#yellowpiece').hover(function() {
+    $('#yellowpiece-desc').toggleClass('show');
+  });
+
+  $('#compositionc').hover(function() {
+    $('#compositionc-desc').toggleClass('show');
+  });
 });
 
-// Display sticky nav
+/**************************
+     Display Sticky Nav
+**************************/
 $(document).scroll(function() {
   var location = $(this).scrollTop();
   if (location > $('#about').offset().top) {

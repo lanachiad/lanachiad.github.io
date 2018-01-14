@@ -136,8 +136,9 @@ p a {
   display: none;
   font-weight: bold;
   justify-content: space-around;
-  padding: 15px 0;
+  padding-top: 15px;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1000;
 }
@@ -268,59 +269,90 @@ p a {
         Development
 **************************/
 
-div.project:first {
+.project-icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+div.project-icon-wrapper:first-of-type {
   margin: 0;
 }
 
-.project {
-  margin: 30px 0;
+.dev-project {
+  border: 2px var(--sdarker) solid;
+  border-radius: 5px;
+  height: 400px;
+  width: 40%;
+}
+
+#birdspotting {
+  background-image: url('images/birdspotting.png');
+  background-size: contain;
+}
+
+#todolist {
+  background-image: url('images/todolist.png');
+}
+
+#burnbook {
+  background-image: url('images/burnbook.png');
+}
+
+#yellowpiece {
+  background-image: url('images/yellowpiece.png');
+}
+
+#compositionc {
+  background-image: url('images/compositionc.png');
+}
+
+#todolist,
+#burnbook,
+#yellowpiece,
+#compositionc {
+  background-size: cover;
+}
+
+#todolist,
+#burnbook,
+#yellowpiece {
+  background-position-x: 50%;
 }
 
 .project-details {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-.flip {
-  order: 2;
-}
-
-.screenshot-wrapper,
-.description-wrapper {
-  display: inline-block;
-  width: 45%;
-}
-
-.screenshot {
-  border: 2px var(--sdarker) solid;
-  border-radius: 25%;
-  height: 350px;
-  width: 100%;
-}
-
-.link-wrapper {
-  display: flex;
-  justify-content: space-around;
-  margin: 50px 0;
-}
-
-.project-link {
-  background-color: var(--pdarker);
-  border: 2px #fff solid;
-  border-radius: 5px;
-  color: #fff;
-  display: block;
-  font-size: 18pt;
-  margin: 0 auto;
+  background-color: rgba(199, 120, 0, 0.75);
+  display: none;
+  height: 90%;
   padding: 20px;
-  text-align: center;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 
-hr {
-  border: 1px var(--sdarker) solid;
+.show {
+  display: block;
+}
+
+.project-details h3 {
+  color: #000;
+}
+
+.project-details p {
+  color: #fff;
+  font-size: 12pt;
+}
+
+.project-details .link-wrapper {
+  margin-top: 30px;
+}
+
+.project-details .link-wrapper .project-link {
+  font-size: 14pt;
+  padding: 10px;
+}
+
+.project-details .link-wrapper .project-link:hover {
+  background-color: transparent;
+  border: 2px #000 solid;
+  color: #000;
 }
 
 /**************************
@@ -372,6 +404,30 @@ hr {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.project {
+  margin: 30px 0;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.project-link {
+  background-color: var(--pdarker);
+  border: 2px #fff solid;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 18pt;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 #youtube-link {
@@ -428,11 +484,28 @@ a #jump-to-top p {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .project-details {
+@media only screen and (max-width: 1000px) {
+  .project-icon-wrapper {
     display: block;
   }
 
+  .dev-project {
+    margin: 30px auto 0;
+    width: 75%;
+  }
+
+  .dev-project:first-of-type,
+  .project-details .link-wrapper .project-link:first-of-type {
+    margin-top: 0;
+  }
+
+  .project-details .link-wrapper .project-link {
+    padding: 5px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .screenshot-wrapper,
   .description-wrapper {
     width: 100%;
@@ -440,6 +513,11 @@ a #jump-to-top p {
 
   a #jump-to-top p {
     display: none;
+  }
+
+  #birdspotting {
+    background-size: cover;
+    background-position-x: 50%;
   }
 }
 
@@ -461,6 +539,10 @@ a #jump-to-top p {
   }
 
   #sticky-contact {
+    display: none;
+  }
+
+  #burnbook-desc p:last-of-type {
     display: none;
   }
 }
@@ -498,5 +580,9 @@ a #jump-to-top p {
 
   #jump-to-top {
     right: 0;
+  }
+
+  #birdspotting .project-details p:first-of-type {
+    display: none;
   }
 }
