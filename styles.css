@@ -581,4 +581,8 @@ a #jump-to-top p {
   #jump-to-top {
     right: 0;
   }
+
+  #birdspotting .project-details p:first-of-type {
+    display: none;
+  }
 }
