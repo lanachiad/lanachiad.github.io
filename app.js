@@ -75,6 +75,10 @@ $(document).ready(function() {
     $('#birdspotting-desc').toggleClass('show');
   });
 
+  $('#hpquiz').hover(function() {
+    $('#hpquiz-desc').toggleClass('show');
+  });
+
   $('#todolist').hover(function() {
     $('#todolist-desc').toggleClass('show');
   });
