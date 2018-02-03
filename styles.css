@@ -286,13 +286,17 @@ div.project-icon-wrapper:first-of-type {
   width: 40%;
 }
 
-#birdspotting {
-  background-image: url('images/birdspotting.png');
-  background-size: contain;
+#hpquiz {
+  background-image: url('images/hpquiz.png');
 }
 
 #todolist {
   background-image: url('images/todolist.png');
+}
+
+#birdspotting {
+  background-image: url('images/birdspotting.png');
+  background-size: contain;
 }
 
 #burnbook {
@@ -307,6 +311,7 @@ div.project-icon-wrapper:first-of-type {
   background-image: url('images/compositionc.png');
 }
 
+#hpquiz,
 #todolist,
 #burnbook,
 #yellowpiece,
@@ -314,6 +319,7 @@ div.project-icon-wrapper:first-of-type {
   background-size: cover;
 }
 
+#hpquiz,
 #todolist,
 #burnbook,
 #yellowpiece {
@@ -580,6 +586,10 @@ a #jump-to-top p {
 
   #jump-to-top {
     right: 0;
+  }
+
+  #hpquiz .project-details p:first-of-type {
+    display: none;
   }
 
   #birdspotting .project-details p:first-of-type {
