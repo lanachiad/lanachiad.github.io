@@ -444,6 +444,7 @@ div.project-icon-wrapper:first-of-type {
 
 #jump-to-top {
   bottom: 10px;
+  display: none;
   font-size: 20pt;
   max-width: 450px;
   padding: 10px;

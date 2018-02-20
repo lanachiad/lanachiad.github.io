@@ -104,8 +104,11 @@ $(document).scroll(function() {
   if (location > $('#about').offset().top) {
     $('#sticky-header').fadeIn();
     $('#sticky-header').css('display', 'flex');
+    $('#jump-to-top').fadeIn();
+    $('#jump-to-top').css('display', 'block');
   } else {
     $('#sticky-header').fadeOut();
+    $('#jump-to-top').fadeOut();
   }
 });
 
