@@ -83,12 +83,12 @@ $(document).ready(function() {
     $('#todolist-desc').toggleClass('show');
   });
 
-  $('#burnbook').hover(function() {
-    $('#burnbook-desc').toggleClass('show');
+  $('#realfakedoors').hover(function() {
+    $('#realfakedoors-desc').toggleClass('show');
   });
 
-  $('#yellowpiece').hover(function() {
-    $('#yellowpiece-desc').toggleClass('show');
+  $('#burnbook').hover(function() {
+    $('#burnbook-desc').toggleClass('show');
   });
 
   $('#compositionc').hover(function() {
