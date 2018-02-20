@@ -4,13 +4,13 @@
 :root {
   --headerfont: 'Berkshire Swash', cursive;
   --bodyfont: 'Open Sans', sans-serif;
-  --primary: #42a5f5;
-  --pdarker: #0077c2;
-  --plighter: #80d6ff;
-  --secondary: #ffa726;
-  --sdarker: #c77800;
-  --slighter: #ffd95b;
-  --background: rgb(253, 243, 237);
+  --primary: #243447;
+  --pdarker: #243447;
+  --plighter: #243447;
+  --secondary: #c51f5d;
+  --sdarker: #991848;
+  --slighter: #e03776;
+  --background: #fff;
 }
 
 html,
@@ -131,8 +131,8 @@ p a {
 **************************/
 
 #sticky-header {
-  background-color: var(--plighter);
-  background: linear-gradient(to top, rgba(157, 213, 253, 0.65), rgba(157, 213, 253, 1));
+  background-color: var(--pdarker);
+  color: #fff;
   display: none;
   font-weight: bold;
   justify-content: space-around;
@@ -144,7 +144,7 @@ p a {
 }
 
 #sticky-header a {
-  color: #000;
+  color: #fff;
 }
 
 #sticky-name,
@@ -185,8 +185,9 @@ p a {
 
 .title {
   background-color: var(--secondary);
-  color: #000 !important;
+  color: #fff !important;
   font-family: var(--headerfont) !important;
+  font-weight: normal;
   padding: 30px 0 30px 50px;
 }
 
@@ -326,7 +327,8 @@ div.project-icon-wrapper:first-of-type {
 }
 
 .project-details {
-  background-color: rgba(199, 120, 0, 0.75);
+  background-color: rgba(153, 24, 72, 0.75);
+  color: #fff;
   display: none;
   height: 90%;
   padding: 20px;
@@ -337,11 +339,12 @@ div.project-icon-wrapper:first-of-type {
 }
 
 .project-details h3 {
-  color: #000;
+  color: #fff;
+  font-weight: normal;
 }
 
 .project-details p {
-  color: #000;
+  color: #fff;
   font-size: 12pt;
   font-weight: bold;
 }
