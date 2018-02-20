@@ -308,15 +308,10 @@ div.project-icon-wrapper:first-of-type {
   background-image: url('images/burnbook.png');
 }
 
-#compositionc {
-  background-image: url('images/compositionc.png');
-}
-
 #hpquiz,
 #todolist,
 #realfakedoors,
-#burnbook,
-#compositionc {
+#burnbook {
   background-size: cover;
 }
 
