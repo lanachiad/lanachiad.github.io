@@ -108,3 +108,10 @@ $(document).scroll(function() {
     $('#sticky-header').fadeOut();
   }
 });
+
+/**************************
+      AOS Animation
+**************************/
+AOS.init({
+  duration: 1200
+});
