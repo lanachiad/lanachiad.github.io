@@ -42,29 +42,31 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Lana Chiad</h1>
-        <nav>
-          <ul>
-            <li>
-              <button id="about-btn" onClick={this.onAboutBtnClick}>
-                About
-              </button>
-            </li>
-            <li>
-              <button id="work-btn" onClick={this.onWorkBtnClick}>
-                Work
-              </button>
-            </li>
-            <li>
-              <button id="resume-btn" onClick={this.onResumeBtnClick}>
-                Resume
-              </button>
-            </li>
-          </ul>
-        </nav>
-        {this.state.showAbout ? <About /> : null}
-        {this.state.showWork ? <Work /> : null}
-        {this.state.showResume ? <Resume /> : null}
+        <div>
+          <h1>Lana Chiad</h1>
+          <nav>
+            <ul>
+              <li>
+                <button id="about-btn" onClick={this.onAboutBtnClick}>
+                  About
+                </button>
+              </li>
+              <li>
+                <button id="work-btn" onClick={this.onWorkBtnClick}>
+                  Work
+                </button>
+              </li>
+              <li>
+                <button id="resume-btn" onClick={this.onResumeBtnClick}>
+                  Resume
+                </button>
+              </li>
+            </ul>
+          </nav>
+          {this.state.showAbout ? <About /> : null}
+          {this.state.showWork ? <Work /> : null}
+          {this.state.showResume ? <Resume /> : null}
+        </div>
       </div>
     );
   }
