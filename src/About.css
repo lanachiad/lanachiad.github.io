@@ -1,0 +1,14 @@
+.About {
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+}
