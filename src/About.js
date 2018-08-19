@@ -4,8 +4,16 @@ import './About.css';
 class About extends Component {
   render() {
     return (
-      <div>
-        <h2>About test</h2>
+      <div className="About">
+        <h2>About</h2>
+        <p>My name is Lana Chiad and I'm a web developer.</p>
+        <p>
+          Though my background lies in technical communication, my passion lies in developing for the front-end. I've
+          worked with a wide range of industries in understanding a user's experience in how they interact with a
+          company's product and web-based platform that lead to conversion. I'm always seeking opportunities to
+          challenge my knowledge and grow as a developer in this exciting industry.
+        </p>
+        <p>Check out my portfolio, Github, and LinkedIn to learn more about my work.</p>
       </div>
     );
   }
