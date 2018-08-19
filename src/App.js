@@ -8,7 +8,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showAbout: false,
+      showAbout: true,
       showWork: false,
       showResume: false
     };
@@ -16,17 +16,17 @@ class App extends Component {
 
   onAboutBtnClick = () => {
     this.onlyOneTrue();
-    this.setState({ showAbout: !this.state.showAbout });
+    this.setState({ showAbout: true });
   };
 
   onWorkBtnClick = () => {
     this.onlyOneTrue();
-    this.setState({ showWork: !this.state.showWork });
+    this.setState({ showWork: true });
   };
 
   onResumeBtnClick = () => {
     this.onlyOneTrue();
-    this.setState({ showResume: !this.state.showResume });
+    this.setState({ showResume: true });
   };
 
   onlyOneTrue = () => {
