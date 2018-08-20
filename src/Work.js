@@ -12,31 +12,63 @@ class Work extends Component {
         <h2>Work</h2>
         <div className="project-wrapper">
           <div className="project">
-            <img alt="Screenshot of Harry Potter Quiz" src={HPQuiz} />
+            <a href="#">
+              <img alt="Screenshot of Harry Potter Quiz" src={HPQuiz} />
+            </a>
             <h3>Harry Potter Quiz</h3>
             <p>Prove yourself as a true Harry Potter fan by taking this ultimate quiz.</p>
             <p>
               Built in ReactJS, you can guess on a series of questions based on the Harry Potter universe. It calculates
               your score and receive unique results based on your grade. We even have floating candles!
             </p>
+            <div className="link-wrapper">
+              <p>
+                <a href="#">View repo</a>
+              </p>
+              <p>
+                <a href="#">View site</a>
+              </p>
+            </div>
           </div>
           <div className="project">
-            <img alt="Screenshot of To Do List" src={ToDoList} />
+            <a href="#">
+              <img alt="Screenshot of To Do List" src={ToDoList} />
+            </a>
             <h3>To Do List</h3>
             <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
             <p>Built in ReactJS, HTML, and CSS.</p>
+            <div className="link-wrapper">
+              <p>
+                <a href="#">View repo</a>
+              </p>
+              <p>
+                <a href="#">View site</a>
+              </p>
+            </div>
           </div>
           <div className="project">
-            <img alt="Screenshot of Real Fake Doors" src={RealFakeDoors} />
+            <a href="#">
+              <img alt="Screenshot of Real Fake Doors" src={RealFakeDoors} />
+            </a>
             <h3>Real Fake Doors</h3>
             <p>Real Fake Doors landing page offers premium solutions to your home.</p>
             <p>
               Built using HTML5, CSS3, Sass, JavaScript, and jQuery. Gulp was used to optimize build and minify/uglify
               CSS and JS. Uses Type.js and AOS. Images were modified using Adobe Photoshop.
             </p>
+            <div className="link-wrapper">
+              <p>
+                <a href="#">View repo</a>
+              </p>
+              <p>
+                <a href="#">View site</a>
+              </p>
+            </div>
           </div>
           <div className="project">
-            <img alt="Screenshot of Burn Book" src={BurnBook} />
+            <a href="#">
+              <img alt="Screenshot of Burn Book" src={BurnBook} />
+            </a>
             <h3>Burn Book</h3>
             <p>Burn Book was inspired by one of my favorite movies, Mean Girls.</p>
             <p>This web app was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
@@ -44,6 +76,14 @@ class Work extends Component {
               As simple as this site is, my favorite part about this app is that all the submissions were done by random
               people &mdash; not one of those is mine. It keeps true to the spirit of the Burn Book.
             </p>
+            <div className="link-wrapper">
+              <p>
+                <a href="#">View repo</a>
+              </p>
+              <p>
+                <a href="#">View site</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
