@@ -8,7 +8,7 @@ class Work extends Component {
         <h2>Work</h2>
         <div className="project-wrapper">
           <div className="hp-quiz">
-            <img src="./../../public/images/hpquiz.png" />
+            <img src="./images/hpquiz.png" />
             <h3>Harry Potter Quiz</h3>
             <p>Prove yourself as a true Harry Potter fan by taking this ultimate quiz.</p>
             <p>
@@ -17,13 +17,13 @@ class Work extends Component {
             </p>
           </div>
           <div className="todo-list">
-            <img src="./../../public/images/todolist.png" />
+            <img src="./images/todolist.png" />
             <h3>To Do List</h3>
             <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
             <p>Built in ReactJS, HTML, and CSS.</p>
           </div>
           <div className="real-fake-doors">
-            <img src="./../../public/images/real_fake_doors.png" />
+            <img src="./images/real_fake_doors.png" />
             <h3>Real Fake Doors</h3>
             <p>Real Fake Doors landing page offers premium solutions to your home.</p>
             <p>
@@ -32,7 +32,7 @@ class Work extends Component {
             </p>
           </div>
           <div className="burn-book">
-            <img src="./../../public/images/burnbook.png" />
+            <img src="./images/burnbook.png" />
             <h3>Burn Book</h3>
             <p>Burn Book was inspired by one of my favorite movies, Mean Girls.</p>
             <p>This web app was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
