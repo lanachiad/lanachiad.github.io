@@ -7,7 +7,7 @@ class Work extends Component {
       <div className="Work">
         <h2>Work</h2>
         <div className="project-wrapper">
-          <div className="hp-quiz">
+          <div className="project">
             <img alt="Screenshot of Harry Potter Quiz" src="./images/hpquiz.png" />
             <h3>Harry Potter Quiz</h3>
             <p>Prove yourself as a true Harry Potter fan by taking this ultimate quiz.</p>
@@ -16,13 +16,13 @@ class Work extends Component {
               your score and receive unique results based on your grade. We even have floating candles!
             </p>
           </div>
-          <div className="todo-list">
+          <div className="project">
             <img alt="Screenshot of To Do List" src="./images/todolist.png" />
             <h3>To Do List</h3>
             <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
             <p>Built in ReactJS, HTML, and CSS.</p>
           </div>
-          <div className="real-fake-doors">
+          <div className="project">
             <img alt="Screenshot of Real Fake Doors" src="./images/real_fake_doors.png" />
             <h3>Real Fake Doors</h3>
             <p>Real Fake Doors landing page offers premium solutions to your home.</p>
@@ -31,7 +31,7 @@ class Work extends Component {
               CSS and JS. Uses Type.js and AOS. Images were modified using Adobe Photoshop.
             </p>
           </div>
-          <div className="burn-book">
+          <div className="project">
             <img alt="Screenshot of Burn Book" src="./images/burnbook.png" />
             <h3>Burn Book</h3>
             <p>Burn Book was inspired by one of my favorite movies, Mean Girls.</p>
