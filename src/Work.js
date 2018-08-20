@@ -8,7 +8,7 @@ class Work extends Component {
         <h2>Work</h2>
         <div className="project-wrapper">
           <div className="hp-quiz">
-            <img src="./images/hpquiz.png" />
+            <img alt="Screenshot of Harry Potter Quiz" src="./images/hpquiz.png" />
             <h3>Harry Potter Quiz</h3>
             <p>Prove yourself as a true Harry Potter fan by taking this ultimate quiz.</p>
             <p>
