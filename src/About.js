@@ -16,10 +16,10 @@ class About extends Component {
         <p>Check out my portfolio, Github, and LinkedIn to learn more about my work.</p>
         <div className="link-wrapper">
           <p>
-            <a href="https://github.com/lanachiad">Github</a>
+            <a href="https://github.com/lanachiad" target="_blank">Github</a>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/lanachiad/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/lanachiad/" target="_blank">LinkedIn</a>
           </p>
         </div>
       </div>
