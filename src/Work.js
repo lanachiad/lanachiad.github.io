@@ -32,7 +32,7 @@ class Work extends Component {
             </p>
           </div>
           <div className="burn-book">
-            <img src="./images/burnbook.png" />
+            <img alt="Screenshot of Burn Book" src="./images/burnbook.png" />
             <h3>Burn Book</h3>
             <p>Burn Book was inspired by one of my favorite movies, Mean Girls.</p>
             <p>This web app was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
