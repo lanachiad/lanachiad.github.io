@@ -23,7 +23,7 @@ class Work extends Component {
             <p>Built in ReactJS, HTML, and CSS.</p>
           </div>
           <div className="real-fake-doors">
-            <img src="./images/real_fake_doors.png" />
+            <img alt="Screenshot of Real Fake Doors" src="./images/real_fake_doors.png" />
             <h3>Real Fake Doors</h3>
             <p>Real Fake Doors landing page offers premium solutions to your home.</p>
             <p>
