@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './Work.css';
+import HPQuiz from './images/hpquiz.png';
+import ToDoList from './images/todolist.png';
+import RealFakeDoors from './images/real_fake_doors.png';
+import BurnBook from './images/burnbook.png';
 
 class Work extends Component {
   render() {
@@ -8,7 +12,7 @@ class Work extends Component {
         <h2>Work</h2>
         <div className="project-wrapper">
           <div className="project">
-            <img alt="Screenshot of Harry Potter Quiz" src="./images/hpquiz.png" />
+            <img alt="Screenshot of Harry Potter Quiz" src={HPQuiz} />
             <h3>Harry Potter Quiz</h3>
             <p>Prove yourself as a true Harry Potter fan by taking this ultimate quiz.</p>
             <p>
@@ -17,13 +21,13 @@ class Work extends Component {
             </p>
           </div>
           <div className="project">
-            <img alt="Screenshot of To Do List" src="./images/todolist.png" />
+            <img alt="Screenshot of To Do List" src={ToDoList} />
             <h3>To Do List</h3>
             <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
             <p>Built in ReactJS, HTML, and CSS.</p>
           </div>
           <div className="project">
-            <img alt="Screenshot of Real Fake Doors" src="./images/real_fake_doors.png" />
+            <img alt="Screenshot of Real Fake Doors" src={RealFakeDoors} />
             <h3>Real Fake Doors</h3>
             <p>Real Fake Doors landing page offers premium solutions to your home.</p>
             <p>
@@ -32,11 +36,14 @@ class Work extends Component {
             </p>
           </div>
           <div className="project">
-            <img alt="Screenshot of Burn Book" src="./images/burnbook.png" />
+            <img alt="Screenshot of Burn Book" src={BurnBook} />
             <h3>Burn Book</h3>
             <p>Burn Book was inspired by one of my favorite movies, Mean Girls.</p>
             <p>This web app was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
-            <p>As simple as this site is, my favorite part about this app is that all the submissions were done by random people &mdash; not one of those is mine. It keeps true to the spirit of the Burn Book.</p>
+            <p>
+              As simple as this site is, my favorite part about this app is that all the submissions were done by random
+              people &mdash; not one of those is mine. It keeps true to the spirit of the Burn Book.
+            </p>
           </div>
         </div>
       </div>
