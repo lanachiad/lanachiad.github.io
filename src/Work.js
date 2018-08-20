@@ -90,10 +90,14 @@ class Work extends Component {
             </p>
             <div className="link-wrapper">
               <p>
-                <a href="https://github.com/lanachiad/burn-book" target="_blank">View repo</a>
+                <a href="https://github.com/lanachiad/burn-book" target="_blank">
+                  View repo
+                </a>
               </p>
               <p>
-                <a href="https://lc-burn-book.herokuapp.com/" target="_blank">View site</a>
+                <a href="https://lc-burn-book.herokuapp.com/" target="_blank">
+                  View site
+                </a>
               </p>
             </div>
           </div>
