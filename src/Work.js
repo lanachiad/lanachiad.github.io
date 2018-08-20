@@ -17,7 +17,7 @@ class Work extends Component {
             </p>
           </div>
           <div className="todo-list">
-            <img src="./images/todolist.png" />
+            <img alt="Screenshot of To Do List" src="./images/todolist.png" />
             <h3>To Do List</h3>
             <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
             <p>Built in ReactJS, HTML, and CSS.</p>
