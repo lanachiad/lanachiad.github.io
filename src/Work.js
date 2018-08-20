@@ -23,26 +23,14 @@ class Work extends Component {
             </p>
             <div className="link-wrapper">
               <p>
-                <a href="#">View repo</a>
+                <a href="https://github.com/lanachiad/hp-quiz" target="_blank">
+                  View repo
+                </a>
               </p>
               <p>
-                <a href="#">View site</a>
-              </p>
-            </div>
-          </div>
-          <div className="project">
-            <a href="#">
-              <img alt="Screenshot of To Do List" src={ToDoList} />
-            </a>
-            <h3>To Do List</h3>
-            <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
-            <p>Built in ReactJS, HTML, and CSS.</p>
-            <div className="link-wrapper">
-              <p>
-                <a href="#">View repo</a>
-              </p>
-              <p>
-                <a href="#">View site</a>
+                <a href="https://lanachiad.github.io/hp-quiz/" target="_blank">
+                  View site
+                </a>
               </p>
             </div>
           </div>
@@ -58,10 +46,34 @@ class Work extends Component {
             </p>
             <div className="link-wrapper">
               <p>
-                <a href="#">View repo</a>
+                <a href="https://github.com/lanachiad/real-fake-doors-landing-page" target="_blank">
+                  View repo
+                </a>
               </p>
               <p>
-                <a href="#">View site</a>
+                <a href="https://lanachiad.github.io/real-fake-doors-landing-page/" target="_blank">
+                  View site
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="project">
+            <a href="#">
+              <img alt="Screenshot of To Do List" src={ToDoList} />
+            </a>
+            <h3>To Do List</h3>
+            <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
+            <p>Built in ReactJS, HTML, and CSS.</p>
+            <div className="link-wrapper">
+              <p>
+                <a href="https://github.com/lanachiad/todo-list" target="_blank">
+                  View repo
+                </a>
+              </p>
+              <p>
+                <a href="https://lanachiad.github.io/todo-list/" target="_blank">
+                  View site
+                </a>
               </p>
             </div>
           </div>
@@ -78,10 +90,10 @@ class Work extends Component {
             </p>
             <div className="link-wrapper">
               <p>
-                <a href="#">View repo</a>
+                <a href="https://github.com/lanachiad/burn-book" target="_blank">View repo</a>
               </p>
               <p>
-                <a href="#">View site</a>
+                <a href="https://lc-burn-book.herokuapp.com/" target="_blank">View site</a>
               </p>
             </div>
           </div>
