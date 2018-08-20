@@ -14,6 +14,14 @@ class About extends Component {
           challenge my knowledge and grow as a developer in this exciting industry.
         </p>
         <p>Check out my portfolio, Github, and LinkedIn to learn more about my work.</p>
+        <div className="link-wrapper">
+          <p>
+            <a href="https://github.com/lanachiad">Github</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/lanachiad/">LinkedIn</a>
+          </p>
+        </div>
       </div>
     );
   }
