@@ -40,7 +40,7 @@ hr.divider:before { /* Not really supposed to work, but does */
 }
 
 .external-link {
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .external-link a {
