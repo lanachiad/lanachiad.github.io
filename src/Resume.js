@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import LCResume from './images/portfolio.png';
 
 class Resume extends Component {
   render() {
-    return <h1>hi</h1>;
+    return (
+      <div className="portfolio">
+        <h1>Portfolio</h1>
+          <img alt="Lana Chiad portfolio" src={LCResume} />
+      </div>
+    );
   }
 }
 
