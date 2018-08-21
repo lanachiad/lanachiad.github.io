@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Resume.css';
 import LCResume from './images/portfolio.png';
 
 class Resume extends Component {
@@ -6,7 +7,7 @@ class Resume extends Component {
     return (
       <div className="ResumeStyle">
         <h1>Portfolio</h1>
-          <img alt="Lana Chiad portfolio" src={LCResume} />
+        <img alt="Lana Chiad portfolio" src={LCResume} />
       </div>
     );
   }
