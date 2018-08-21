@@ -12,9 +12,7 @@ class Work extends Component {
         <h2>Work</h2>
         <div className="project-wrapper">
           <div className="project">
-            <a href="#">
-              <img alt="Screenshot of Harry Potter Quiz" src={HPQuiz} />
-            </a>
+            <img alt="Screenshot of Harry Potter Quiz" src={HPQuiz} />
             <h3>Harry Potter Quiz</h3>
             <p>Prove yourself as a true Harry Potter fan by taking this ultimate quiz.</p>
             <p>
@@ -36,9 +34,7 @@ class Work extends Component {
           </div>
           <hr className="divider" />
           <div className="project">
-            <a href="#">
-              <img alt="Screenshot of Real Fake Doors" src={RealFakeDoors} />
-            </a>
+            <img alt="Screenshot of Real Fake Doors" src={RealFakeDoors} />
             <h3>Real Fake Doors</h3>
             <p>Real Fake Doors landing page offers premium solutions to your home.</p>
             <p>
@@ -60,9 +56,7 @@ class Work extends Component {
           </div>
           <hr className="divider" />
           <div className="project">
-            <a href="#">
-              <img alt="Screenshot of To Do List" src={ToDoList} />
-            </a>
+            <img alt="Screenshot of To Do List" src={ToDoList} />
             <h3>To Do List</h3>
             <p>To Do List is just that: a to-do list. You can add, edit, complete, and delete items.</p>
             <p>Built in ReactJS, HTML, and CSS.</p>
@@ -81,9 +75,7 @@ class Work extends Component {
           </div>
           <hr className="divider" />
           <div className="project">
-            <a href="#">
-              <img alt="Screenshot of Burn Book" src={BurnBook} />
-            </a>
+            <img alt="Screenshot of Burn Book" src={BurnBook} />
             <h3>Burn Book</h3>
             <p>Burn Book was inspired by one of my favorite movies, Mean Girls.</p>
             <p>This web app was built with Rails, uses PostgreSQL for the database, and was deployed to Heroku.</p>
