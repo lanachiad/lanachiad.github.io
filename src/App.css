@@ -23,7 +23,7 @@ h1 {
 }
 
 nav {
-  background-color: lavender;
+  background-color: darkgreen;
   margin: 10px auto 40px;
   padding: 10px 20px;
   width: 100%;
@@ -37,8 +37,9 @@ nav ul {
 }
 
 nav ul li button {
-  background-color: lavender;
+  background-color: darkgreen;
   border: 0;
+  color: silver;
   cursor: pointer;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;

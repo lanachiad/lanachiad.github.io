@@ -20,8 +20,9 @@ p {
 }
 
 .link-wrapper a {
-  background-color: lavender;
+  background-color: darkgreen;
   border-radius: 5px;
+  color: silver;
   padding: 10px;
   text-decoration: none;
 }
