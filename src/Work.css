@@ -38,3 +38,11 @@ hr.divider:before { /* Not really supposed to work, but does */
     height: 30px;
     margin-top: -31px;
 }
+
+.external-link {
+  margin-top: 50px;
+}
+
+.external-link a {
+  font-size: 25px;
+}
