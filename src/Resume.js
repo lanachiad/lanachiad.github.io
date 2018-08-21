@@ -4,7 +4,7 @@ import LCResume from './images/portfolio.png';
 class Resume extends Component {
   render() {
     return (
-      <div className="portfolio">
+      <div className="ResumeStyle">
         <h1>Portfolio</h1>
           <img alt="Lana Chiad portfolio" src={LCResume} />
       </div>
