@@ -19,7 +19,7 @@ img {
 }
 
 hr.divider {
-    border-color: black;
+    border-color: darkgreen;
     border-radius: 20px;
     border-style: solid;
     border-width: 1px 0 0 0;
@@ -29,7 +29,7 @@ hr.divider {
 }
 
 hr.divider:before { /* Not really supposed to work, but does */
-    border-color: black;
+    border-color: darkgreen;
     border-radius: 20px;
     border-style: solid;
     border-width: 0 0 1px 0;
