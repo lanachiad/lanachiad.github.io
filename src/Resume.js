@@ -8,6 +8,13 @@ class Resume extends Component {
       <div className="ResumeStyle">
         <h1>Portfolio</h1>
         <img alt="Lana Chiad portfolio" src={LCResume} />
+         <div className="link-wrapper external-link">
+          <p>
+            <a href="mailto:lanachiad7@gmail.com" target="_blank">
+              Email me
+            </a>
+          </p>
+        </div>
       </div>
     );
   }
