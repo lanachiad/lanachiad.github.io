@@ -34,7 +34,7 @@ class Work extends Component {
               </p>
             </div>
           </div>
-          <hr class="divider" />
+          <hr className="divider" />
           <div className="project">
             <a href="#">
               <img alt="Screenshot of Real Fake Doors" src={RealFakeDoors} />
@@ -58,7 +58,7 @@ class Work extends Component {
               </p>
             </div>
           </div>
-          <hr class="divider" />
+          <hr className="divider" />
           <div className="project">
             <a href="#">
               <img alt="Screenshot of To Do List" src={ToDoList} />
@@ -79,7 +79,7 @@ class Work extends Component {
               </p>
             </div>
           </div>
-          <hr class="divider" />
+          <hr className="divider" />
           <div className="project">
             <a href="#">
               <img alt="Screenshot of Burn Book" src={BurnBook} />
