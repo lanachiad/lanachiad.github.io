@@ -105,6 +105,13 @@ class Work extends Component {
             </div>
           </div>
         </div>
+        <div className="link-wrapper external-link">
+          <p>
+            <a href="https://github.com/lanachiad" target="_blank">
+              See more on Github
+            </a>
+          </p>
+        </div>
       </div>
     );
   }
