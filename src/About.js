@@ -29,6 +29,11 @@ class About extends Component {
               LinkedIn
             </a>
           </p>
+          <p>
+            <a href="mailto:lanachiad7@gmail.com" target="_blank">
+              Email
+            </a>
+          </p>
         </div>
       </div>
     );
