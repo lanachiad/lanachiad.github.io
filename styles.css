@@ -161,9 +161,24 @@ div#inner {
 	width: 600px;
 }
 
+h1 {
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+ul {
+
+}
+
+li {
+    
+}
+
 a {
 	border: 2px solid #56A3A6;
 	color: #56A3A6;
+    font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	padding: 5px;
 	text-decoration: none;
