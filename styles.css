@@ -1,0 +1,170 @@
+body {
+	align-items: center;
+	background-color: #EEE5E9;
+	display: flex;
+	justify-content: center;
+}
+
+div#container {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+div.rotating-div {
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+}
+
+@-ms-keyframes right-spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes right-spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes right-spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes right-spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@-ms-keyframes left-spin {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes left-spin {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes left-spin {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes left-spin {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+
+div#outer {
+	background-color: #D64933;
+	height: 400px;
+	margin-top: 90px;
+	width: 400px;
+	-webkit-animation-name: right-spin;
+    -webkit-animation-duration: 6000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: right-spin;
+    -moz-animation-duration: 6000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: right-spin;
+    -ms-animation-duration: 6000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: right-spin;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+div#outer:before, div#outer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 400px;
+    background: #D64933;
+}
+div#outer:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+div#outer:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+
+div#middle {
+	background-color: #7C7C7C;
+	height: 250px;
+	margin-top: 155px;
+	width: 250px;
+	-webkit-animation-name: left-spin;
+    -webkit-animation-duration: 6000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: left-spin;
+    -moz-animation-duration: 6000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: left-spin;
+    -ms-animation-duration: 6000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-name: left-spin;
+    animation-timing-function: linear;
+
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+
+div#middle:before {
+    background: #7C7C7C;
+    content: "";
+    height: 250px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+div#inner {
+	background-color: #000;
+	bottom: 0;
+	height: 200px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 600px;
+	width: 600px;
+}
+
+a {
+	border: 2px solid #56A3A6;
+	color: #56A3A6;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
+}
