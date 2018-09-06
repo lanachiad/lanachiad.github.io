@@ -209,7 +209,7 @@ a {
         width: 150px;
     }
     div#inner {
-        height: 300px;
+        display: table;
         width: 65%;
     }
     ul {
