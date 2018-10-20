@@ -213,6 +213,7 @@ a {
     }
     div#inner {
         display: table;
+        padding: 20px 0;
         width: 65%;
     }
     ul {
