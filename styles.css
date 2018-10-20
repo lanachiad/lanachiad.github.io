@@ -151,6 +151,7 @@ div#middle:before {
 
 div#inner {
 	background-color: #000;
+    border-radius: 10px;
 	bottom: 0;
 	height: 200px;
 	left: 0;
@@ -182,10 +183,11 @@ ul {
 
 a {
 	border: 2px solid #56A3A6;
+    border-radius: 5px;
 	color: #56A3A6;
     font-family: 'Lato', sans-serif;
 	font-weight: bold;
-	padding: 5px;
+	padding: 10px;
 	text-decoration: none;
 }
 
