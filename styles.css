@@ -1,8 +1,5 @@
 body {
-    /* align-items: center; */
     background-color: #EEE5E9;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 div#container {
@@ -94,7 +91,6 @@ div.rotating-div {
 div#outer {
     background-color: #D64933;
     height: 400px;
-    /* margin-top: 90px; */
     margin-top: 175px;
     width: 400px;
     -webkit-animation-name: right-spin;
@@ -143,7 +139,6 @@ div#outer:after {
 div#middle {
     background-color: #7C7C7C;
     height: 250px;
-    /* margin-top: 155px; */
     margin-top: 260px;
     width: 250px;
     -webkit-animation-name: left-spin;
@@ -189,7 +184,6 @@ div#inner {
     height: 200px;
     left: 0;
     margin: auto;
-    /* position: absolute; */
     right: 0;
     top: 300px;
     width: 60%;
