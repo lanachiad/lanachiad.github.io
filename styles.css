@@ -208,6 +208,7 @@ ul {
     justify-content: space-around;
     list-style-type: none;
     margin-top: 45px;
+    padding-left: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
@@ -225,7 +226,17 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #56A3A6;
+    border: 2px solid #000;
+    color: #000;
+    transition: ease;
+}
+
 @media screen and (max-width: 568px) {
+    div#container {
+        height: 100%;
+    }
     div#outer {
         height: 200px;
         margin-top: 60px;
@@ -247,10 +258,11 @@ a {
     }
     div#inner {
         display: table;
-        padding: 20px 0;
-        width: 65%;
+        margin-top: 40%;
+        padding: 20px;
     }
     h1 {
+        font-size: 35px;
         margin-top: 0;
     }
     ul {
