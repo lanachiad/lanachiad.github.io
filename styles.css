@@ -214,10 +214,13 @@ a {
     border: 2px solid #56A3A6;
     border-radius: 5px;
     color: #56A3A6;
+    display: block;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     padding: 10px;
+    text-align: center;
     text-decoration: none;
+    width: 85px;
 }
 
 a:hover {
@@ -263,6 +266,6 @@ a:hover {
         flex-direction: column;
     }
     li {
-        margin: 20px auto;
+        margin: 10px auto;
     }
 }
